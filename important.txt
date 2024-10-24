@@ -1,0 +1,28 @@
+Problem related Powershell Execution Policy
+    powershell ==> run as administrator
+              1.Get-ExecutionPolicy
+              2.Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+              3.Set-ExecutionPolicy Restricted  (if no longer need the change)
+
+    
+
+Step 1: Activate Virtual Environment and Install Jupyter
+.\myenv\Scripts\activate
+pip install notebook ipykernel
+python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+
+
+Step 2: Start Jupyter Notebook
+jupyter notebook
+
+
+command
+    deactivate                  (deactivate the virtual environment)
+    rm -r myenv                 (delete the virtual environment)
+    python -m venv myenv        (create a new virtual environment)
+    .\myenv\Scripts\activate    (activate the virtual environment)
+    pip install notebook ipykernel
+    jupyter notebook
+
+
+
