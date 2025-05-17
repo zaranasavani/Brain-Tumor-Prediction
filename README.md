@@ -1,4 +1,4 @@
-#  🧠 Brain Tumor Detection Using CNN
+#  🧠 Brain Tumor Prediction Using CNN
 
 
 
